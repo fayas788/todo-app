@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.card__tasks{
+    margin-top:  20px;
+    margin-bottom: 3px;
+    width:500px;
+    padding:10px;
+    align-content: center !important; 
+}
+ .input__tasks 
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.input__tasks > label
+{
+    color:crimson;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.MuiButtonBase-root{
+    margin-top: 10px !important;
+}
+.MuiList-root
+{
+    background-color: white;
+    width: 520px;   
+    margin-top: 25px !important;
+    border-radius: 4px !important;
+    margin-bottom: 5px;
+    
+}
+.MuiListItemText-root{
+    padding:10px;  
+}
+.MuiTypography-body1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px !important;
+    font-weight: bold !important;  
+    display: flex !important;
+}
+.MuiTypography-colorTextSecondary{
+    display: flex !important;
+    padding-top: 5px !important;
+    font-weight: bolder !important;
+    color: #41295a !important;
+}
+.list__items{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.delete{
+display: flex !important;
+font-size: 20px !important;
+margin-right: 20px !important;
+background:red;
+color:white !important;
+height: 40px !important;
+width:30px !important;
+cursor:pointer !important;
+}
+.modal-edit
+{
+   background:green !important; 
+   font-size: 20px !important;
+}

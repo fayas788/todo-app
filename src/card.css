@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+.app
+{
+    display:flex;
+    justify-content: center;
+    align-content: center !important;
+
+}
+.card__header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width:500px;
+    padding:10px;
+    background:white;
+    align-items: center;
+}
+.card__heading{
+    justify-content: center;
+    color:#ee0979;
+    font-family: 'Noto Serif', serif;
+}
